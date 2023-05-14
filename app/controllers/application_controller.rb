@@ -1,5 +1,5 @@
 class ApplicationController < ActionController::Base
     def hello
-        render html: "ohohohohohhello, world!"
+    include SessionHelper
     end
 end
